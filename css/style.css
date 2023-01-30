@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: green;
+}
+
+.kl-01 {
+    width: 37%;
+    height: 100vh;
+    background: url("../img/kl.jpg");
+    background-position: right top;
+    background-size: cover;
+}
+.trass {
+    width: 26%;
+    height: 100vh;
+    background: url("../img/tr.png");
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.kl-02 {
+    width: 37%;
+    height: 100vh;
+    background: url("../img/kl2.jpg");
+    background-position: left top;
+    background-size: cover;
+}
+
+.car {
+    width: 30%;
+    position: absolute;
+    bottom: 30px;
+    left: 22px;
+    transition: .3s;
+}
+
+.btn {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    background: bisque;
+    border: none;
+    cursor: pointer;
+    left: 50%;
+    top: 50%;
+    margin-left: -125px;
+    margin-top: -25px;
+    z-index: 333;
+}
